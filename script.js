@@ -21,8 +21,8 @@ function hearts(){
 
 }
 
-function play() {
-    document.getElementById('musica-do-jogo').play();
+function musica(){
+
 }
 
 function carta0(){
@@ -33,3 +33,23 @@ function carta0(){
 function carta1(){
     hearts();
 }
+
+function valor(){
+    
+}
+
+function musica(){
+    
+    stt = document.getElementById('stts').value;
+
+    if (parseInt(stt) === 1){
+        alert('musica ligado');
+    } else {
+        alert('musica desligada');
+    }
+
+
+}
+
+
+musica();
