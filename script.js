@@ -14,7 +14,7 @@ function hearts(){
         document.getElementById('coraçao').src = "img/1-heart.png";
     }
     if (vida === 0 ){
-        window.location.href = "home.html";
+        window.location.href = "index.html";
     }
     
     localStorage.setItem("vidas", vida);
