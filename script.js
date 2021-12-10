@@ -43,9 +43,9 @@ function musica(){
     stt = document.getElementById('stts').value;
 
     if (parseInt(stt) === 1){
-        alert('musica ligado');
+        
     } else {
-        alert('musica desligada');
+        
     }
 
 

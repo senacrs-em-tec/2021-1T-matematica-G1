@@ -21,6 +21,8 @@ body{
     margin-left: auto;
     margin-right: auto;
     border-radius: 10px;
+    font-size: 25px; 
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', 'Arial', 'sans-serif';
 }
 
 a{
@@ -88,13 +90,109 @@ a{
 }
 .equaçao {
     text-align: center;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', 'Arial', 'sans-serif';
     padding: 10px;
     background: url('img/equacao.png');
-
 }
-
+#coraçao{
+    display: inline-block; 
+    float: right; 
+    margin-top: 15px; 
+    margin-right: 72px;
+    height: 70px;
+}
+main h1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', 'Arial', 'sans-serif';
+    color: white; 
+    margin-bottom: 10px; 
+    display: inline-block; 
+    margin-left: 82px;
+}
 .txtcarta {
     font-size: x-large;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', 'sans-serif';
+}
+.eissoai{
+    margin-left: 90%;
+}
+main h2{
+    text-align: center; 
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', 'Arial', 'sans-serif'; 
+    margin-top: 90px; 
+    color: white;
+    font-size: 30px;
+}
+.regrinhas{
+    margin-left: 250px; 
+    color: white; 
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', 'Arial', 'sans-serif'; 
+    text-align: justify;
+}
+@media only screen and (max-width: 600px){
+    .regrinhas{
+        margin-left: 5px;
+        text-align: justify;
+    }
+    .eissoai{
+        margin-left: 70%;
+    }
+    main h2{
+        margin-top: 150px;
+    }
+    .cartapergunta{
+        height: 150px;
+        width: 350px;
+    }
+    #coraçao{
+        height: 60px;
+        margin-top: 0px;
+        margin-right: 90px;
+    }
+    main h1{
+        font-size: 30px;
+        margin-left: 120px;
+        margin-bottom: 0px;
+    }
+    .carta1{
+        height: 150px;
+        width: 90px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 20px;
+    }
+    .carta2{
+        height: 150px;
+        width: 90px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 20px;
+    }
+    .carta3{
+        height: 150px;
+        width: 90px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 20px;
+    }
+    .carta4{
+        height: 150px;
+        width: 90px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 20px;
+    }
+    .carta5{
+        height: 150px;
+        width: 90px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 20px;
+    }
+    .carta6{
+        height: 150px;
+        width: 90px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 20px;
+    }
 }
