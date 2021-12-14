@@ -41,6 +41,7 @@ a{
     height: 250px;
     width: 150px;
     margin-left: 35px;
+    background: url('img/dificul-1.png');
 }
 
 .carta2{
@@ -48,6 +49,7 @@ a{
     height: 250px;
     width: 150px;
     margin-left: 35px;
+    background: url('img/dificul-2.png');
 }
 
 .carta3{
@@ -55,27 +57,7 @@ a{
     height: 250px;
     width: 150px;
     margin-left: 35px;
-}
-
-.carta4{
-    display: inline-block;
-    height: 250px;
-    width: 150px;
-    margin-left: 35px;
-}
-
-.carta5{
-    display: inline-block;
-    height: 250px;
-    width: 150px;
-    margin-left: 35px;
-}
-
-.carta6{
-    display: inline-block;
-    height: 250px;
-    width: 150px;
-    margin-left: 35px;
+    background: url('img/dificul-3.png');
 }
 
 .cartapergunta {
@@ -87,12 +69,15 @@ a{
     margin-left: auto;
     margin-right: auto;
     padding-top: 1px;
+    background: url('img/equacao.png');
 }
 .equaçao {
     text-align: center;
+    font-size: small;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', 'Arial', 'sans-serif';
     padding: 10px;
-    background: url('img/equacao.png');
+    padding-left: 30px;
+    padding-right: 30px;
 }
 #coraçao{
     display: inline-block; 
@@ -128,7 +113,84 @@ main h2{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', 'Arial', 'sans-serif'; 
     text-align: justify;
 }
+.carta4{
+    margin-top: 52px;
+    text-align: center;
+    text-align: center;
+    font-size: small;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', 'Arial', 'sans-serif';
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.carta6{
+    text-align: justify; 
+    margin-top: 40px;
+    text-align: center;
+    font-size: small;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', 'Arial', 'sans-serif';
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.carta7{
+    text-align: justify; 
+    margin-top: 35px;
+    font-size: small;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', 'Arial', 'sans-serif';
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.carta11{
+    text-align: justify;
+    margin-top: 25px;
+    font-size: small;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', 'Arial', 'sans-serif';
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.carta13{
+    text-align: justify;
+    margin-top: 30px;
+    font-size: small;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', 'Arial', 'sans-serif';
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.carta14{
+    text-align: justify;
+    margin-top: 45px;
+    font-size: small;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', 'Arial', 'sans-serif';
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
 @media only screen and (max-width: 600px){
+    .carta4{
+        margin-top: 30px;
+    }
+    .carta6{
+        margin-top: 15px;
+    }
+    .carta7{
+        margin-top: 5px;
+        font-size: 11px;
+    }
+    .carta11{
+        margin-top: 9px;
+        font-size: 10px;
+    }
+    .carta13{
+        margin-top: 7px;
+        font-size: 12px;
+    }
+    .carta14{
+        margin-top: 28px;
+    }
     .regrinhas{
         margin-left: 5px;
         text-align: justify;
@@ -140,8 +202,9 @@ main h2{
         margin-top: 150px;
     }
     .cartapergunta{
-        height: 150px;
-        width: 350px;
+        height: 110px;
+        width: 330px;
+        background: url('img/equacao-1.png');
     }
     #coraçao{
         height: 60px;
@@ -159,6 +222,7 @@ main h2{
         margin-left: auto;
         margin-right: auto;
         margin-top: 20px;
+        background: url('img/dificul-1-1.png');
     }
     .carta2{
         height: 150px;
@@ -166,6 +230,7 @@ main h2{
         margin-left: auto;
         margin-right: auto;
         margin-top: 20px;
+        background: url('img/dificul-2-2.png');
     }
     .carta3{
         height: 150px;
@@ -173,26 +238,6 @@ main h2{
         margin-left: auto;
         margin-right: auto;
         margin-top: 20px;
-    }
-    .carta4{
-        height: 150px;
-        width: 90px;
-        margin-left: auto;
-        margin-right: auto;
-        margin-top: 20px;
-    }
-    .carta5{
-        height: 150px;
-        width: 90px;
-        margin-left: auto;
-        margin-right: auto;
-        margin-top: 20px;
-    }
-    .carta6{
-        height: 150px;
-        width: 90px;
-        margin-left: auto;
-        margin-right: auto;
-        margin-top: 20px;
+        background: url('img/dificul-3-3.png');
     }
 }
