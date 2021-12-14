@@ -113,6 +113,10 @@ main h2{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', 'Arial', 'sans-serif'; 
     text-align: justify;
 }
+a:link, a:visited, a:active{
+    text-decoration: none;
+	color: #000;
+}
 .carta4{
     margin-top: 52px;
     text-align: center;
