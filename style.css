@@ -37,10 +37,6 @@ a{
     padding-left: 6%;
 }
 
-.fases{
-
-}
-
 .carta1{
     display: inline-block;
     height: 250px;
@@ -90,7 +86,7 @@ a{
     display: inline-block; 
     float: right; 
     margin-top: 15px; 
-    margin-right: 110px;
+    margin-right: 123px;
     height: 70px;
 }
 
@@ -244,24 +240,21 @@ a:link, a:visited, a:active{
     .carta1{
         height: 150px;
         width: 90px;
-        margin-left: auto;
-        margin-right: auto;
+        margin-left: 8px;
         margin-top: 20px;
         background: url('img/dificul-1-1.png');
     }
     .carta2{
         height: 150px;
         width: 90px;
-        margin-left: auto;
-        margin-right: auto;
+        margin-left: 8px;
         margin-top: 20px;
         background: url('img/dificul-2-2.png');
     }
     .carta3{
         height: 150px;
         width: 90px;
-        margin-left: auto;
-        margin-right: auto;
+        margin-left: 8px;
         margin-top: 20px;
         background: url('img/dificul-3-3.png');
     }

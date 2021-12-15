@@ -6,14 +6,15 @@
     }
 }
 
-function hearts(){
-    if (vida === 2){
+function hearts(vida){
+    vida = parseInt(vida);
+    if (vida == 2){
         document.getElementById('coraçao').src = "img/2-heart.png";
     }
-    if (vida === 1){
+    if (vida == 1){
         document.getElementById('coraçao').src = "img/1-heart.png";
     }
-    if (vida === 0 ){
+    if (vida == 0 ){
         window.location.href = "index.html";
     }
     
@@ -23,11 +24,11 @@ function hearts(){
 
 function carta0(){
     vida = parseInt(vida) - 1 ;
-    hearts();
+    hearts(vida);
 }
 
 function carta1(){
-    hearts();
+    hearts(vida);
 }
 
-hearts();
+hearts(vida);
