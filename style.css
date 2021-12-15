@@ -73,16 +73,7 @@ a{
     background: url('img/equacao.png');
 }
 
-.equaçao {
-    text-align: center;
-    font-size: small;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', 'Arial', 'sans-serif';
-    padding: 10px;
-    padding-left: 30px;
-    padding-right: 30px;
-}
-
-#coraçao{
+#coracao{
     display: inline-block; 
     float: right; 
     margin-top: 15px; 
@@ -227,7 +218,7 @@ a:link, a:visited, a:active{
         width: 330px;
         background: url('img/equacao-1.png');
     }
-    #coraçao{
+    #coracao{
         height: 60px;
         margin-top: 0px;
         margin-right: 90px;

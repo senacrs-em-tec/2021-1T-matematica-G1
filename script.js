@@ -9,10 +9,10 @@
 function hearts(vida){
     vida = parseInt(vida);
     if (vida == 2){
-        document.getElementById('coraçao').src = "img/2-heart.png";
+        document.getElementById('coracao').src = "img/2-heart.png";
     }
     if (vida == 1){
-        document.getElementById('coraçao').src = "img/1-heart.png";
+        document.getElementById('coracao').src = "img/1-heart.png";
     }
     if (vida == 0 ){
         window.location.href = "index.html";
