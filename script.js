@@ -21,10 +21,6 @@ function hearts(){
 
 }
 
-function musica(){
-
-}
-
 function carta0(){
     vida = parseInt(vida) - 1 ;
     hearts();
@@ -34,22 +30,4 @@ function carta1(){
     hearts();
 }
 
-function valor(){
-    
-}
-
-function musica(){
-    
-    stt = document.getElementById('stts').value;
-
-    if (parseInt(stt) === 1){
-        
-    } else {
-        
-    }
-
-
-}
-
-
-musica();
+hearts();
